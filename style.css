@@ -1,0 +1,15 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    border: border-box;
+    font-family: Arial;
+}
+
+.navbar{
+
+    background-color: #036846;
+    height: 65px;
+    width: 100%;
+    color: white;
+}
