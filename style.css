@@ -15,6 +15,8 @@
     justify-content: space-evenly;
     display: flex;
     align-items: center;
+    flex-direction: column;
+    
     
 }
 
@@ -48,7 +50,9 @@
 
 .border:hover{
 
-    border: 1.5px solid white;
+    border: 1.2px solid white;
+    padding: 6px;
+    
 }
 
 /* div-2 */
@@ -89,7 +93,7 @@
     justify-content: space-evenly;
     width: 620px;
     height: 40px;
-    background-color: pink;
+    background-color: ;
     border-radius: 4px;
 }
 
@@ -194,4 +198,58 @@
 
     font-weight: bold;
     font-size: 0.9rem;
+}
+
+
+/* panel */
+
+.second-navbar{
+
+    display: flex;
+    background-color: #085749;
+    height: 40px;
+    align-items: center;
+    color: white;
+    justify-content: space-evenly;
+}
+
+.all{
+
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    
+}
+
+.all p{
+
+    font-weight: bold;
+}
+
+.bars i{
+
+    font: white;
+    font-size: 1.3rem;
+}
+
+.text-section{
+
+    width: 77%;
+}
+
+.text-section a{
+
+    color: white;
+    text-decoration: none;
+    margin-left: 12px;
+}
+
+/* hero-section */
+
+.hero-section{
+
+    background-image: url("./image.jpg");
+    background-size: cover;
+    height: 600px;
+
 }
