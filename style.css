@@ -12,10 +12,10 @@
     height: 60px;
     width: 100%;
     color: white;
-    
+    justify-content: space-evenly;
     display: flex;
     align-items: center;
-    gap: 10px;
+    
 }
 
 /* div-1 */
@@ -128,4 +128,70 @@
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px
     
+}
+
+.flag-section{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #004636;
+    
+    
+}
+
+.f-select{
+
+    background-color:   #004636;
+    color: white;
+    border: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.text .h1{
+
+    font-size: 12px;
+}
+
+.icon-text{
+
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+.icon-text i{
+
+    color: grey;
+    padding-left: 2px;
+}
+
+.text2 .p1{
+
+    font-size: 12px;
+}
+
+.text2 .p2{
+
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.cart{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cart1 i{
+
+    font-size: 27px;
+}
+.c-text{
+
+    font-weight: bold;
+    font-size: 0.9rem;
 }
