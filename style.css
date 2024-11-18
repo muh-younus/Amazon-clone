@@ -15,7 +15,7 @@
     justify-content: space-evenly;
     display: flex;
     align-items: center;
-    flex-direction: column;
+    
     
     
 }
@@ -250,6 +250,103 @@
 
     background-image: url("./image.jpg");
     background-size: cover;
-    height: 600px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
 
+}
+
+.angle1{
+
+    font-size: 50px;
+    color: grey;
+    font-weight: 100px;
+}
+
+/* Box-section */
+
+
+.bx-section{
+
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #071A2B;
+    padding-top: 20px;
+
+}
+.bx-section .box{
+
+    width: 21%;
+    background-color: white;
+    padding: 10px;
+    
+}
+
+.bx1 .img{
+
+    background-image: url("./box1.jpg");
+    height: 420px;
+    background-size: contain;
+    
+}
+
+.bx1 .deal{
+
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.bx1 .show{
+     
+    margin-top: 15px;
+    color: #0095FF;
+}
+
+.bx2 .img1{
+
+    display: flex;
+
+}
+
+.img1 img{
+
+    width: 130px;
+    height: 155px;
+}
+
+.bx2 .img2{
+
+    display: flex;
+
+}
+
+.img2 img{
+
+    width: 130px;
+    height: 185px;
+}
+
+.bx2 .game{
+
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+.img1{
+
+    margin-bottom: 40px;
+}
+
+.img2{
+
+    margin-bottom: 15px;
+}
+
+.see{
+
+    color: rgb(0, 149, 255)
 }
