@@ -267,28 +267,45 @@
 
 /* Box-section */
 
+.main{
+
+    background-color: #101F31;
+}
+
+
+
 
 .bx-section{
 
     display: flex;
     justify-content: space-evenly;
-    background-color: #071A2B;
+    
     padding-top: 20px;
-
+    margin-bottom: 20px;
+    
 }
-.bx-section .box{
+.box{
 
     width: 21%;
     background-color: white;
     padding: 10px;
+    height: 60%;
+   
     
 }
+.bx1{
+
+    height: 400px;
+}
+
+
+
 
 .bx1 .img{
 
     background-image: url("./box1.jpg");
-    height: 420px;
-    background-size: contain;
+    height: 320px;
+    background-size: cover;
     
 }
 
@@ -314,7 +331,7 @@
 .img1 img{
 
     width: 130px;
-    height: 155px;
+    height: 100px;
 }
 
 .bx2 .img2{
@@ -326,7 +343,7 @@
 .img2 img{
 
     width: 130px;
-    height: 185px;
+    height: 139px;
 }
 
 .bx2 .game{
@@ -371,11 +388,70 @@
     gap: 10px;
 }
 
-.bx3 .Home{
+.Home{
 
     font-size: 21px !important;
     font-weight: bold;
     color: black;
     line-height: 27.3px !important;
     padding-bottom: 10px;
+}
+
+.discover{
+
+margin-top: 34px;
+margin-bottom: 9px;
+color: rgb(0, 149, 255);
+
+}
+
+
+/* Box-4 */
+
+.box4{
+
+    
+}
+
+.img41 img{
+
+    width: 260px;
+    height: 150px;
+}
+
+.cooker{
+
+    margin-bottom: 10px;
+}
+
+.img42{
+
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+
+}
+
+.img21 img{
+
+    background-size: cover;
+    width: 80px;
+    height: 90px;
+}
+
+.explore{
+
+    margin: 19px 0px;
+    color: rgb(0, 149, 255);
+}
+
+.bx2-section{
+
+   background: #101F31;
+}
+
+.card{
+
+    display: flex;
+    justify-content: space-evenly;
 }
