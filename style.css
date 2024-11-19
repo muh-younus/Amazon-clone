@@ -350,3 +350,32 @@
 
     color: rgb(0, 149, 255)
 }
+
+.hover:hover{
+
+    color: #FF7F3E;
+}
+
+.img2{
+
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+.img3{
+
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.bx3 .Home{
+
+    font-size: 21px !important;
+    font-weight: bold;
+    color: black;
+    line-height: 27.3px !important;
+    padding-bottom: 10px;
+}
