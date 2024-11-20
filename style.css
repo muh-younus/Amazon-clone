@@ -503,3 +503,23 @@ color: rgb(0, 149, 255);
     color: #FF7F3E;
 }
 
+.after-slide{
+
+    margin: 10px;
+}
+
+.box4{
+
+    
+display: flex;
+justify-content: space-evenly;
+}
+
+.img2 p{
+
+    font-size: 12px;
+}
+.img3 p{
+
+    font-size: 12px;
+}
