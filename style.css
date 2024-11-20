@@ -470,7 +470,7 @@ color: rgb(0, 149, 255);
 .inner-picture{
 
     width: 1183px;
-    height: 220px;
+    height: 180px;
     display: flex;
     justify-content: space-evenly;
 }
