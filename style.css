@@ -594,4 +594,26 @@ footer{
 
     display: flex;
     color: white;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+ul li{
+
+    list-style: none;
+    line-height: 30px;
+    font-size:14px;
+}
+
+.head{
+
+    font-weight: bolder;
+    margin: 0px 0px 15px 0px;
+}
+
+.line{
+
+    height: 0.2px;
+    
+
 }
